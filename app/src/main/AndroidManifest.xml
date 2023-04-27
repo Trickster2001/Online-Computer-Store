@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sample">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_black_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/white_logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity
+            android:name=".order_hardware"
+            android:exported="true" />
+        <activity
+            android:name=".order_laptop"
+            android:exported="true" />
+        <activity
+            android:name=".admin_logout"
+            android:exported="true" />
+        <activity
+            android:name=".admin_aboutus"
+            android:exported="true" />
+        <activity
+            android:name=".admin_profile"
+            android:exported="true" />
+        <activity
+            android:name=".order"
+            android:exported="true" />
+        <activity
+            android:name=".adddatahardware"
+            android:exported="true" />
+        <activity
+            android:name=".admin_hardware"
+            android:exported="true" />
+        <activity
+            android:name=".admin_repair"
+            android:exported="true" />
+        <activity
+            android:name=".admin_laptop"
+            android:exported="true" />
+        <activity
+            android:name=".adddatalaptop"
+            android:exported="true" />
+        <activity
+            android:name=".admin_desktop"
+            android:exported="true" />
+        <activity
+            android:name=".adddata"
+            android:exported="true" />
+        <activity
+            android:name=".repair"
+            android:exported="true" />
+        <activity
+            android:name=".hardware"
+            android:exported="true" />
+        <activity
+            android:name=".laptop"
+            android:exported="true" />
+        <activity
+            android:name=".desktop"
+            android:exported="true" />
+        <activity
+            android:name=".logout"
+            android:exported="true" />
+        <activity
+            android:name=".aboutus"
+            android:exported="true" />
+        <activity
+            android:name=".profile"
+            android:exported="true" />
+        <activity
+            android:name=".admin_dashboard"
+            android:exported="true" />
+        <activity
+            android:name=".dashboard"
+            android:exported="true" />
+        <activity
+            android:name=".login"
+            android:exported="true" />
+        <activity
+            android:name=".register"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

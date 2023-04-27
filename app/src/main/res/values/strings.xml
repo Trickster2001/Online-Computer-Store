@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Computer Store</string>
+    <string name="title_activity_admin_hardware">admin_hardware</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="aboutus">
+        The Computer and Hardware Store app is designed and developed for computer shop to manage their records of selling of desktop, laptop and hardware.
+    </string>
+    <string name="contact">
+        To contact us you can email us on sudipmurkar@gmail.com
+        \n\n
+
+
+        Or call 7972162143
+    </string>
+</resources>
